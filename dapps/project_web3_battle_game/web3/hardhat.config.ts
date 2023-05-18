@@ -24,7 +24,7 @@ export default {
   },
   networks: {
     fuji: {
-      url: 'https://api.avax-test.network/ext/bc/C/rpc',
+      url: 'https://app.zeeve.io/shared-api/avax/100eff9d918b3e643441492c6aa5b2794dbffa7326e42e5d/',
       gasPrice: 225000000000,
       chainId: 43113,
       accounts: [process.env.PRIVATE_KEY],

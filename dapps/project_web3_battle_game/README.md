@@ -1,8 +1,8 @@
-# eth-dex
+# Avax Gods - Online Multiplayer Web3 NFT Card Game
 ![Gameplay](https://i.ibb.co/4P2C08x/image.png)
 
 
-Description -> Basic Ethereum decentralized exchange
+Description -> Web3 based battle game.
 
 ## Run this project
 
@@ -16,7 +16,7 @@ To run this project locally, follow these steps.
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. Install [Node.js](https://nodejs.org/en/download)
 3. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) (optional)
-4. Install [Truffle](https://trufflesuite.com/docs/truffle/how-to/install/)
+4. Install [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
 5. Install [Metamask](https://metamask.io/download/)
 6. Create [RPC API Enpoint](../../RPC.md) for Avalanche Test Network Fuji(C-chain)
   <!-- ![img](../../assets/images/Screenshot from 2023-05-18 18-19-57.png)
@@ -38,17 +38,25 @@ To run this project locally, follow these steps.
 
 #### Application Setup Steps
 
-1. Clone the project locally, change into the directory, and install the dependencies:
+##### 1. Clone the project locally, change into the directory, and install the dependencies:
 
 ```sh
 git clone https://github.com/Zeeve-App/sample-dapps.git
 
-cd sample-dapps/dapps/eth-dex
+cd sample-dapps/dapps/project_web3_battle_game
 ```
+
+##### Instructions on setting up the Web3 part of the project
+
+1. `cd web3`
+
+<!-- 1. `npx hardhat` -> y → typescript → enter → enter -->
+
+<!-- 2. `npm install @openzeppelin/contracts dotenv @nomiclabs/hardhat-ethers` + Hardhat packages `npm install --save-dev "hardhat@^2.12.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"` -->
 
 2. `npm install`
 
-<!-- 3. Create a `.env` file and specify a PRIVATE_KEY variable.
+3. Create a `.env` file and specify a PRIVATE_KEY variable.
 
 4. To get to the private key, do the following steps:
 
@@ -79,7 +87,7 @@ cd sample-dapps/dapps/eth-dex
 
 1. `cd client`
 
-2. `npm install` -->
+2. `npm install`
 
 3. `npm run dev`
 
