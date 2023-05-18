@@ -27,36 +27,35 @@ Please create an account if not created yet
 
 if you've a account do login
 
-![img](https://prnt.sc/5oiu6DMAMr_y)
+![img](./assets/images/Screenshot from 2023-05-18 13-48-37.png)
 
 ### Purchase Subscription
 
 ZDFS offers you different subscription plans and you can optimize cost as per your requirement using the plan calculator. You need to purchase the endpoints of a particular plan to enjoy seamless services of ZDFS. You can purchase 'N' number of endpoints of a particular plan on a monthly basis.
 
-![img](https://prnt.sc/nO8spG-qDyrM)
+![img](./assets/images/Screenshot from 2023-05-18 13-49-14.png)
 
 NOTE: We are referring 1 ENDPOINT as 1 Access Key.
 
 #### DEVELOPER
-$0 PER MONTH 
 
 This plan is meant for experimenting purpose where you can enjoy the following features:
 
-API Rate Limit 60 reqs/min
-5 GB Storage
-10 GB Bandwidth
-Shared Gateway
-Community Support
+ 1. API Rate Limit 60 reqs/min
+ 2. 5 GB Storage
+ 3. 10 GB Bandwidth
+ 4. Shared Gateway
+ 5. Community Support
 
 
 You will be redirected to Payment Page
 
-![img](https://prnt.sc/uTR77MjhfOA9)
+![img](./assets/images/Screenshot from 2023-05-18 13-50-19.png)
 
 
 After Purchase successful
 
-![img](https://prnt.sc/sP1ttFGPifJQ)
+![img](./assets/images/Screenshot from 2023-05-18 13-50-54.png)
 
 
 

@@ -20,7 +20,7 @@ We support all the major Blockchain protocols for you to deploy nodes and networ
 ✤  App Chains: From Avalanche subnets, Polygon Supernets to Substrate Parachains, we provide nodes and network DevOps for all App Chains
 
 
-### Heterogenous Cloud Deployment on cloud of your choice
+<!-- ### Heterogenous Cloud Deployment on cloud of your choice
 
 ✤  Managed Deployment: Use Zeeve managed cloud infrastructure on AWS/Azure/GCP
 
@@ -38,7 +38,7 @@ Active Monitoring of nodes and networks with advance analytics, alerts and notif
 
 ✤  Real time monitoring of Blockchain Resources and cloud resources.
 
-✤  Get alerts and notifications related to health of your nodes.
+✤  Get alerts and notifications related to health of your nodes. -->
 
 
 
@@ -59,9 +59,9 @@ Sample Zeeve Applications contains applications like NFT MarketPlace, Web3 Game,
 
 ## Account Setup
 
-Build, Deploy and Manage your Blockchain apps and nodes. Save up to 97% in time and 60%+ in costs using Zeeve.
+<!-- Create an account on Zeeve after which you can authorize external accounts/platforms on Zeeve. -->
 
-Create an account on Zeeve after which you can authorize external accounts/platforms on Zeeve.
+For sample dApps usage you will need an account on Zeeve to use the services like RPC API endpoint and Decentralized File Storage (ZDFS).
 
 Zeeve supports multiple options for creating an account. You can choose to create account with you Google account or Github account. Also you can use your email to create an account and use the same for signing in.
 

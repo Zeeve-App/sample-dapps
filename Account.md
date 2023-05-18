@@ -1,5 +1,5 @@
 
-# [Account Setup Steps]
+# Account Setup Instructions
 
 ## Signing up with google account
    

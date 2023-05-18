@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import { ethers } from 'ethers'
-import { create as ipfsHttpClient } from 'ipfs-http-client'
 import { useRouter } from 'next/router'
 import Web3Modal from 'web3modal'
 import axios from 'axios';
 import FormData from 'form-data';
 
-
-
-// const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0')
+const fs = require('fs');
+const authToken = fs.readFileSync(".token").toString().trim() || "01234567890123456789";
 
 
 import {
@@ -24,7 +22,7 @@ export default function CreateItem() {
   const router = useRouter()
 
 
-  async function uploadFileToIPFS(file) {
+  async function uploadFileToZDFS(file) {
     
     const url = `https://app.zeeve.io/zdfs-api/api/v1/file/upload`
 
@@ -46,14 +44,14 @@ export default function CreateItem() {
             headers: {
                 'Content-Type': `multipart/form-data; boundary=${data._boundary}`,
                 
-                'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ2ZTdkYjMyYjA5ZTdlMWIzNGMzMGYyZTQ4NmM5ODkwYjdhNDgyZTQyOTA0NTM0MSIsImFjY291bnRfaWQiOiI2OGVlZTFlYi0zMDMxLTQ2YzEtYjgxZC1kNWYyMWI4OGYwNWYiLCJhY2Nlc3Nfa2V5IjoiNDZlN2RiMzJiMDllN2UxYjM0YzMwZjJlNDg2Yzk4OTBiN2E0ODJlNDI5MDQ1MzQxIiwiZW1haWwiOiJhbmt1c2gucmFuYUB6ZWV2ZS5pbyIsImlhdCI6MTY4MzAxMDAwOSwiZXhwIjoxOTk4NTg2MDA5fQ.gNMWfYnYzU99i2CL__3KSj5Ls2bkEH397GKcm7Zgxe0`
+                'Authorization': `Bearer ${authToken}`
             }
         })
         .then(function (response) {
            console.log("image uploaded", response.data.data.fileCID)
             return {
               success: true,
-              fileURL: "https://app.zeeve.io/zdfs-gateway/ipfs/"+ response.data.data.fileCID
+              fileURL: "https://app.zeeve.io/zdfs-gateway/ZDFS/"+ response.data.data.fileCID
            };
         })
         .catch(function (error) {
@@ -66,7 +64,7 @@ export default function CreateItem() {
     });
   }
 
-  async function uploadJSONToIPFS(JSONBody) {
+  async function uploadJSONToZDFS(JSONBody) {
     
     // Create a new File object
     const myFile = new File([JSON.stringify(JSONBody)], `${JSONBody.name}.json`, {
@@ -74,22 +72,15 @@ export default function CreateItem() {
          lastModified: new Date(),
     });
  
-    return uploadFileToIPFS(myFile);
+    return uploadFileToZDFS(myFile);
      
  };
 
   async function onChange(e) {
     const file = e.target.files[0]
     try {
-      // const added = await client.add(
-      //   file,
-      //   {
-      //     progress: (prog) => console.log(`received: ${prog}`)
-      //   }
-      // )
-      // const url = `https://ipfs.infura.io/ipfs/${added.path}`
-
-      const uploadResponse = await uploadFileToIPFS(file)
+      
+      const uploadResponse = await uploadFileToZDFS(file)
 
       if (uploadResponse.success) {
         console.log("fileURL ===> ", uploadResponse.fileURL);
@@ -111,18 +102,11 @@ export default function CreateItem() {
       name, description, image: fileUrl
     };
 
-    // /* first, upload to IPFS */
-    // const data = JSON.stringify({
-    //   name, description, image: fileUrl
-    // })
     try {
-      // const added = await client.add(data)
-      // const url = `https://ipfs.infura.io/ipfs/${added.path}`
-
-      const uploadJSONResponse = await uploadJSONToIPFS(JSONBody)
+      const uploadJSONResponse = await uploadJSONToZDFS(JSONBody)
 
       if (uploadJSONResponse.success) {
-        /* after file is uploaded to IPFS, pass the URL to save it on Polygon */
+        /* after file is uploaded to ZDFS, pass the URL to save it on Polygon */
         console.log("uploadJSONResponse fileURL ===> ", uploadJSONResponse.fileURL)
         createSale(uploadJSONResponse.fileURL)
       } else {
