@@ -27,13 +27,14 @@ Please create an account if not created yet
 
 if you've a account do login
 
-![img](./assets/images/2023-05-18-13-48-37.png)
+![2023-05-18-13-48-37](https://github.com/Zeeve-App/sample-dapps/assets/98962374/5ec2dbef-0b89-4866-8b4b-032c4b50cd94)
 
 ### Purchase Subscription
 
 ZDFS offers you different subscription plans and you can optimize cost as per your requirement using the plan calculator. You need to purchase the endpoints of a particular plan to enjoy seamless services of ZDFS. You can purchase 'N' number of endpoints of a particular plan on a monthly basis.
 
-![img](./assets/images/2023-05-18-13-49-14.png)
+![2023-05-18-13-49-14](https://github.com/Zeeve-App/sample-dapps/assets/98962374/81500faa-5dd6-4298-8e5c-6d3a80148e16)
+
 
 NOTE: We are referring 1 ENDPOINT as 1 Access Key.
 
@@ -50,14 +51,12 @@ This plan is meant for experimenting purpose where you can enjoy the following f
 
 You will be redirected to Payment Page
 
-![img](./assets/images/2023-05-18-13-50-19.png)
-
+![2023-05-18-13-50-19](https://github.com/Zeeve-App/sample-dapps/assets/98962374/3c940ff2-9caa-4fb5-b520-91ef531093a5)
 
 After Purchase successful
 
-![img](./assets/images/2023-05-18-13-50-54.png)
 
-
+![2023-05-18-13-50-54](https://github.com/Zeeve-App/sample-dapps/assets/98962374/9789c9e5-1c06-4f91-b1c3-715d84ae5a07)
 
 ### Create Access
 
