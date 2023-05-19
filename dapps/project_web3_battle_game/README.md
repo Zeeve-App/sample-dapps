@@ -22,13 +22,11 @@ To run this project locally, follow these steps.
 
 Please follow screenshots
 
-![img](file://assets/images/2023-05-18-18-19-57.png)
-![img](../../assets/images/2023-05-18-18-25-32.png)
-![img](../../assets/images/2023-05-18-18-26-16.png)
-![img](../../assets/images/2023-05-18-18-27-37.png)
-![img](../../assets/images/2023-05-18-18-32-55.png)
-  
-
+![2023-05-18-18-19-57](https://github.com/Zeeve-App/sample-dapps/assets/98962374/7e03d64b-ea3b-4113-99d0-3217d6c417ea)
+![2023-05-18-18-25-32](https://github.com/Zeeve-App/sample-dapps/assets/98962374/f3b10d6a-bcaf-4292-9aa2-a010c5fa6e76)
+![2023-05-18-18-26-16](https://github.com/Zeeve-App/sample-dapps/assets/98962374/3fb1af10-dd9a-4bdc-954d-6e2ea27f2c93)
+![2023-05-18-18-27-37](https://github.com/Zeeve-App/sample-dapps/assets/98962374/5b731201-b946-479d-9275-72492e5c916f)
+![2023-05-18-18-32-55](https://github.com/Zeeve-App/sample-dapps/assets/98962374/0b94209c-5c9e-4fdc-b4be-14eadaef1989)
 
 7. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
 
