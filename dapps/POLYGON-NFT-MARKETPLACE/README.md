@@ -1,6 +1,6 @@
 # NFT Marketplace Built With Polygon, Solidity, IPFS & Next.js
 
-![Header](https://raw.githubusercontent.com/TravelXML/POLYGON-NFT-MARKETPLACE/main/NFT%20Marketplace.png)
+![Header](https://user-images.githubusercontent.com/8361967/147471812-2d68ea6a-0485-4d7d-b34e-0fa7157dc240.png)
 
  
 Description -> Create NFT Marketplace With Below Options.
@@ -96,7 +96,8 @@ Here, we will add the following configurations for the Mumbai test network as li
 
 * Currency Symbol: Matic
 
-![image](../../assets/images/2023-05-18-13-53-09.png)
+![2023-05-18-13-53-09](https://github.com/Zeeve-App/sample-dapps/assets/98962374/a65dac04-3222-4af3-b14d-963b420ed6ec)
+
 
 Save this, then you should be able to switch to and use the new network!
 
@@ -139,7 +140,7 @@ Once the contracts have been deployed, you should be able to update the contract
 
     const provider = new ethers.providers.JsonRpcProvider('https://app.zeeve.io/shared-api/poly/a4f392ac9e1cef447778d0911edd1d6fff88d77f0d27db16/')
 
-![image](../../assets/images/2023-05-18-13-54-31.png)
+![2023-05-18-13-54-31](https://github.com/Zeeve-App/sample-dapps/assets/98962374/579a6a67-3e4e-4922-80cb-67f4a53d2c7c)
 
 
 ##### 4. Run Application
