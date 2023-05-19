@@ -19,11 +19,15 @@ To run this project locally, follow these steps.
 4. Install [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
 5. Install [Metamask](https://metamask.io/download/)
 6. Create [RPC API Enpoint](../../RPC.md) for Avalanche Test Network Fuji(C-chain)
-  <!-- ![img](../../assets/images/Screenshot from 2023-05-18 18-19-57.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-25-32.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-26-16.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-27-37.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-32-55.png) -->
+
+Please follow screenshots
+
+![img](file://assets/images/2023-05-18-18-19-57.png)
+![img](../../assets/images/2023-05-18-18-25-32.png)
+![img](../../assets/images/2023-05-18-18-26-16.png)
+![img](../../assets/images/2023-05-18-18-27-37.png)
+![img](../../assets/images/2023-05-18-18-32-55.png)
+  
 
 
 7. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)

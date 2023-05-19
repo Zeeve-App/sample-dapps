@@ -27,13 +27,13 @@ Please create an account if not created yet
 
 if you've a account do login
 
-![img](./assets/images/Screenshot from 2023-05-18 13-48-37.png)
+![img](./assets/images/2023-05-18-13-48-37.png)
 
 ### Purchase Subscription
 
 ZDFS offers you different subscription plans and you can optimize cost as per your requirement using the plan calculator. You need to purchase the endpoints of a particular plan to enjoy seamless services of ZDFS. You can purchase 'N' number of endpoints of a particular plan on a monthly basis.
 
-![img](./assets/images/Screenshot from 2023-05-18 13-49-14.png)
+![img](./assets/images/2023-05-18-13-49-14.png)
 
 NOTE: We are referring 1 ENDPOINT as 1 Access Key.
 
@@ -50,12 +50,12 @@ This plan is meant for experimenting purpose where you can enjoy the following f
 
 You will be redirected to Payment Page
 
-![img](./assets/images/Screenshot from 2023-05-18 13-50-19.png)
+![img](./assets/images/2023-05-18-13-50-19.png)
 
 
 After Purchase successful
 
-![img](./assets/images/Screenshot from 2023-05-18 13-50-54.png)
+![img](./assets/images/2023-05-18-13-50-54.png)
 
 
 

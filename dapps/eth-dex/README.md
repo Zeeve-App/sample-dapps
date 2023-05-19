@@ -1,6 +1,5 @@
 # eth-dex
-![Gameplay](https://i.ibb.co/4P2C08x/image.png)
-
+![img](../../assets/images/2023-05-19-12-18-54.png)
 
 Description -> Basic Ethereum decentralized exchange
 
@@ -16,22 +15,24 @@ To run this project locally, follow these steps.
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. Install [Node.js](https://nodejs.org/en/download)
 3. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) (optional)
-4. Install [Truffle](https://trufflesuite.com/docs/truffle/how-to/install/)
+4. Install [Truffle](https://trufflesuite.com/docs/truffle/how-to/install/) Truffle v5.0.9 (core: 5.0.9)
 5. Install [Metamask](https://metamask.io/download/)
-6. Create [RPC API Enpoint](../../RPC.md) for Avalanche Test Network Fuji(C-chain)
-  <!-- ![img](../../assets/images/Screenshot from 2023-05-18 18-19-57.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-25-32.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-26-16.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-27-37.png)
-  ![img](../../assets/images/Screenshot from 2023-05-18 18-32-55.png) -->
+6. Create [RPC API Enpoint](../../RPC.md) for Ethereum Test Network Sepolia 
+  
+  Please follow screenshots
+  ![img](../../assets/images/2023-05-19-12-05-44.png)
+  ![img](../../assets/images/2023-05-19-12-08-57.png)
+  ![img](../../assets/images/2023-05-19-12-11-35.png)
+  ![img](../../assets/images/2023-05-19-12-13-29.png)
+  ![img](../../assets/images/2023-05-18-18-32-55.png)
 
 
 7. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
 
-    1. Fuji url: 'https://app.zeeve.io/shared-api/avax/100eff9d918b3e643441492c6aa5b2794dbffa7326e42e5d/'
-    2. Chain Id: 43113
+    1. Sepolia url: 'https://app.zeeve.io/shared-api/eth/f7d5b6624c939b41b58bc6df223df685bde85f1058f03dbe/'
+    2. Chain Id: 11155111
 
-8. Fund your wallet from the [Avax Faucet](https://faucet.avax.network/)
+8. Fund your wallet from the [Sepolia Faucet](https://faucet-sepolia.rockx.com/)
 
 
 
@@ -48,40 +49,52 @@ cd sample-dapps/dapps/eth-dex
 
 2. `npm install`
 
-<!-- 3. Create a `.env` file and specify a PRIVATE_KEY variable.
+3. Update truffle-config.js file
 
-4. To get to the private key, do the following steps:
+```javascript
 
-  1. Click on the identicon in the top right.
-  2. Select the account you'd like to export.
-  3. On the account page, click on the menu (three dots) in the upper right corner, and then on the "Account Details" button.
-  4. Click “Export Private Key”.
-  5. To access your private key, you'll now need to enter your wallet password. Once you've done so, click “Confirm” to proceed.
-  6. Your private key will now be revealed. Click to copy it, and save it somewhere safe. (Note: we aren't showing it in the below screenshot for obvious reasons --   but yours will be there.)
-  7. Click “Done” to close the screen.
+var HDWalletProvider = require("truffle-hdwallet-provider");
+var mnemonic = "your_metamask_wallet_passphrase";
+
+module.exports = {
+  networks: {
+    development: {
+      host: '127.0.0.1',
+      port: 7545,
+      network_id: '*',
+    },
+    sepolia: {
+      provider: function() { 
+       return new HDWalletProvider(mnemonic, "https://app.zeeve.io/shared-api/eth/f7d5b6624c939b41b58bc6df223df685bde85f1058f03dbe/");
+      },
+      network_id: 11155111,
+      gas: 4500000,
+      gasPrice: 10000000000,
+    }
+  },
+  contracts_directory: './src/contracts/',
+  contracts_build_directory: './build/contracts/',
+  test_file_extension_regexp: /.*\.test.ts$/,
+  compilers: {
+    solc: {
+      version: '0.8.14',
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+      evmVersion: 'petersburg',
+    },
+  },
+};
 
 
-  [Get Private Key](https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key)
+```
 
-  and update .env file
-  
+5. Compile the contract by running the `truffle compile` command
 
-5. Compile the contract by running the `npx hardhat compile` command
+6. Deploy the smart contract on the Sepolia Ethereum test network by running the `truffle migrate --network sepolia` command
 
-6. Deploy the smart contract on the Fuji test network by running the `npx hardhat run scripts/deploy.ts --network fuji` command
-
-  Move the `/artifacts/contracts/AVAXGods.json` file to the `/contract` folder on the frontend application [client](./client/)
-  Copy the address of the deployed contract from the terminal and paste it into the `/contract/index.js` file of the frontend application [client](./client/)
-
-
-##### Instructions on setting up the client part of the project
-
-
-1. `cd client`
-
-2. `npm install` -->
-
-3. `npm run dev`
+7. `npm run dev`
 
 
 

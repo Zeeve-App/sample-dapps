@@ -20,7 +20,7 @@ Please create an account if not created yet
 
 if you've a account do login
 
-![img](./assets/images/Screenshot%20from%202023-05-18%2013-36-01.png)
+![img](./assets/images/2023-05-18-13-36-01.png)
 
 ### Buy Developer Subscription
 
@@ -44,11 +44,11 @@ Go with default selected free Developer Plan offering
 
 5. Community Support
 
-![img](./assets/images/Screenshot from 2023-05-18 13-37-56.png)
+![img](./assets/images/2023-05-18-13-37-56.png)
 
 You will be redirected to the payment page to complete your purchase. Fill the card details and click Subscribe.
 
-![img](./assets/images/Screenshot from 2023-05-18 13-43-46.png)
+![img](./assets/images/2023-05-18-13-43-46.png)
 
 After successful payment you will be redirected to success page which ensures successful purchase of your subscription.
 
@@ -79,7 +79,7 @@ Visit the API Endpoints page by clicking on API Endpoints under Manage Services 
 
 Click on Add Endpoint card or the button on top right corner. You will be able to see all the subscriptions you bought for the API endpoints.
 
-![img](./assets/images/Screenshot from 2023-05-18 13-45-26.png)
+![img](./assets/images/2023-05-18-13-45-26.png)
 
 NOTE: These cards can be different based on your purchased subscriptions.
 
@@ -91,7 +91,7 @@ Endpoint Info
 
 This step configures the basic and blockchain protocol settings for the endpoint.
 
-![img](./assets/images/Screenshot from 2023-05-18 13-46-06.png)
+![img](./assets/images/2023-05-18-13-46-06.png)
 
 Endpoint Name: The name of your endpoint.
 Workspace: The workspace in which the endpoint will be added.
@@ -106,14 +106,14 @@ NOTE: Adding security to the endpoint is optional.
 
 This step configures the security settings for the endpoint. An option to add a JWT in your API call to make your endpoint more secure.
 
-![img](./assets/images/Screenshot from 2023-05-18 13-47-04.png)
+![img](./assets/images/2023-05-18-13-47-04.png)
 
 Require JWT: Enable this checkbox if you want to add a JWT security option.
 Public Key Name: The name associated to the public key.
 Public Key: The public key of a assymetric key-pair. Only keys generated using RSA and ECDSA algorithms are allowed.
 On clicking the Submit button a pop-up window will open which ensures the successful creation of your endpoint.
 
-![img](./assets/images/Screenshot from 2023-05-18 13-47-47.png)
+![img](./assets/images/2023-05-18-13-47-47.png)
 
 On clicking the Continue button you will be redirected to the page where you can see the endpoint you created.
 
