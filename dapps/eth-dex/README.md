@@ -1,5 +1,6 @@
 # eth-dex
-![img](../../assets/images/2023-05-19-12-18-54.png)
+
+![2023-05-19-12-18-54](https://github.com/Zeeve-App/sample-dapps/assets/98962374/2a8d070e-5be1-4413-8b92-603ed4801127)
 
 Description -> Basic Ethereum decentralized exchange
 
@@ -20,11 +21,18 @@ To run this project locally, follow these steps.
 6. Create [RPC API Enpoint](../../RPC.md) for Ethereum Test Network Sepolia 
   
   Please follow screenshots
-  ![img](../../assets/images/2023-05-19-12-05-44.png)
-  ![img](../../assets/images/2023-05-19-12-08-57.png)
-  ![img](../../assets/images/2023-05-19-12-11-35.png)
-  ![img](../../assets/images/2023-05-19-12-13-29.png)
-  ![img](../../assets/images/2023-05-18-18-32-55.png)
+  
+  ![2023-05-19-12-05-44](https://github.com/Zeeve-App/sample-dapps/assets/98962374/a4e423d9-1b9d-431c-99f2-768eb776fa0a)
+  
+  ![2023-05-19-12-08-57](https://github.com/Zeeve-App/sample-dapps/assets/98962374/95587441-9033-41f3-9969-e0b5fa9ccacf)
+
+  ![2023-05-19-12-11-35](https://github.com/Zeeve-App/sample-dapps/assets/98962374/0d8885d5-dd1e-454d-bb63-40ea82d7506f)
+
+  ![2023-05-19-12-13-29](https://github.com/Zeeve-App/sample-dapps/assets/98962374/ed06c2aa-74f9-4016-9ab2-30c9fb9d8454)
+
+  ![Screenshot from 2023-05-19 14-55-19](https://github.com/Zeeve-App/sample-dapps/assets/98962374/ce7077e4-af13-42d8-afc3-90641599886a)
+
+
 
 
 7. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
@@ -33,8 +41,6 @@ To run this project locally, follow these steps.
     2. Chain Id: 11155111
 
 8. Fund your wallet from the [Sepolia Faucet](https://faucet-sepolia.rockx.com/)
-
-
 
 
 #### Application Setup Steps
