@@ -1,5 +1,6 @@
 # Avax Gods - Online Multiplayer Web3 NFT Card Game
-![Gameplay](https://i.ibb.co/4P2C08x/image.png)
+
+<img width="1433" alt="Gameplay" src="https://github.com/Zeeve-App/sample-dapps/assets/98962374/10819608-5ea7-4baa-897c-89f0ac53d92b">
 
 
 Description -> Web3 based battle game.
