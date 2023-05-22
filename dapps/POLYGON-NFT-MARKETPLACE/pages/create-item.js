@@ -6,7 +6,9 @@ import axios from 'axios';
 import FormData from 'form-data';
 
 const fs = require('fs');
-const authToken = fs.readFileSync(".token").toString().trim() || "01234567890123456789";
+const path = require("path");
+
+const authToken = fs.readFileSync(path.resolve(__dirname, "../.token")).toString().trim() || "01234567890123456789";
 
 
 import {

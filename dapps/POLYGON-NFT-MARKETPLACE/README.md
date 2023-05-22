@@ -22,11 +22,10 @@ To run this project locally, follow these steps.
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. Install [Node.js](https://nodejs.org/en/download)
 3. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) (optional)
-4. Install [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
-5. Install [Metamask](https://metamask.io/download/)
-6. Create [RPC API Enpoint](../../RPC.md) for Polygon Test Network Mumbai
-7. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
-8. Buy [ZDFS Subscription](../../ZDFS.md) and Create Access Key
+4. Install [Metamask](https://metamask.io/download/)
+5. Create [RPC API Enpoint](../../RPC.md) for Polygon Test Network Mumbai
+6. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
+7. Buy [ZDFS Subscription](../../ZDFS.md) and Create Access Key
 
 
 #### Application Setup Steps
@@ -57,7 +56,9 @@ To deploy to Polygon test network, update the configurations located in __hardha
 ```javascript
 require("@nomiclabs/hardhat-waffle");
 const fs = require('fs');
-const privateKey = fs.readFileSync(".secret").toString().trim() || "01234567890123456789";
+const path = require("path");
+
+const privateKey = fs.readFileSync(path.resolve(__dirname, ".secret")).toString().trim() || "01234567890123456789";
 
 module.exports = {
   defaultNetwork: "hardhat",
@@ -65,13 +66,12 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    /*
     mumbai: {
       // Zeeve
       url: `https://app.zeeve.io/shared-api/poly/a4f392ac9e1cef447778d0911edd1d6fff88d77f0d27db16/`
       accounts: [privateKey]
-    },
-    */
+    }
+    
   },
   solidity: {
     version: "0.8.4",
@@ -84,6 +84,8 @@ module.exports = {
   }
 };
 ```
+
+Add ZDFS Access token in .token file
 
 ##### 3. Deploy into Mumbai test network
 Here, we will add the following configurations for the Mumbai test network as listed here:
@@ -104,6 +106,7 @@ Save this, then you should be able to switch to and use the new network!
 Finally, you will need some testnet Matic tokens in order to interact with the applications[.secret->privatekey].
 
 To get these, you can visit the [Matic Faucet](https://faucet.polygon.technology/), inputting the address of the wallets that you would like to request the tokens for.
+
 Deploying to the Matic / Polygon network.
 ![image](https://user-images.githubusercontent.com/8361967/147472081-64c009bd-c27c-4f22-8306-c236fd0b5a85.png)
 
@@ -132,7 +135,7 @@ Once the contracts have been deployed, you should be able to update the contract
 ![image](https://user-images.githubusercontent.com/8361967/147471686-9372dc27-0b0f-4840-a66a-8bcde9e1dbae.png)
 
 
-**Change the JSON Provider in index.js file loadNFTs()**
+**Change the JSON Provider in pages/index.js file loadNFTs()**
 
     const provider = new ethers.providers.JsonRpcProvider()
 
@@ -145,6 +148,24 @@ Once the contracts have been deployed, you should be able to update the contract
 
 ##### 4. Run Application
 
+Enable legacy OpenSSL provider.
+
+On Unix-like (Linux, macOS, Git bash, etc.):
+
+```sh
+
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+On Windows command prompt:
+
+```sh
+set NODE_OPTIONS=--openssl-legacy-provider
+```
+
+On PowerShell:
+```sh
+$env:NODE_OPTIONS = "--openssl-legacy-provider"
+```
 Then good to up the server, Run below command
 
 ```sh  

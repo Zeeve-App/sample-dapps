@@ -16,7 +16,7 @@ To run this project locally, follow these steps.
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. Install [Node.js](https://nodejs.org/en/download)
 3. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) (optional)
-4. Install [Truffle](https://trufflesuite.com/docs/truffle/how-to/install/) Truffle v5.0.9 (core: 5.0.9)
+4. Install [Truffle](https://trufflesuite.com/docs/truffle/how-to/install/) Truffle
 5. Install [Metamask](https://metamask.io/download/)
 6. Create [RPC API Enpoint](../../RPC.md) for Ethereum Test Network Sepolia 
   
@@ -31,7 +31,6 @@ To run this project locally, follow these steps.
   ![2023-05-19-12-13-29](https://github.com/Zeeve-App/sample-dapps/assets/98962374/ed06c2aa-74f9-4016-9ab2-30c9fb9d8454)
 
   ![Screenshot from 2023-05-19 14-55-19](https://github.com/Zeeve-App/sample-dapps/assets/98962374/ce7077e4-af13-42d8-afc3-90641599886a)
-
 
 
 

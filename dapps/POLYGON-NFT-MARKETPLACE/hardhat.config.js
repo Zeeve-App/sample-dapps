@@ -1,6 +1,8 @@
 require("@nomiclabs/hardhat-waffle");
 const fs = require('fs');
-const privateKey = fs.readFileSync(".secret").toString().trim() || "01234567890123456789";
+const path = require("path");
+
+const privateKey = fs.readFileSync(path.resolve(__dirname, ".secret")).toString().trim() || "01234567890123456789";
 
 module.exports = {
   defaultNetwork: "hardhat",
@@ -10,7 +12,7 @@ module.exports = {
     },
     mumbai: {
       // zeeve
-      url: `https://polygon-mumbai.infura.io/v3/4458cf4d1689497b9a38b1d6bbf05e78`,
+      url: `https://app.zeeve.io/shared-api/poly/67b9965cf3af288e72f52eb3e014493ad4132cc9ae9764f4/`,
       accounts: [privateKey]
     },
   },
