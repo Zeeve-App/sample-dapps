@@ -81,7 +81,14 @@ cd sample-dapps/dapps/project_web3_battle_game
 
 6. To deploy to Fuji Avalanche test network, update the configurations located in __hardhat.config.ts__ to use a private key and, deploy to a private RPC like Zeeve.
 
-Go to Zeeve RPC endpoint 
+   Go to Zeeve RPC endpoint
+   
+   ![Screenshot from 2023-05-22 14-34-01](https://github.com/Zeeve-App/sample-dapps/assets/98962374/74788c92-64d2-4afe-a3de-8290d9856da2)
+   
+   Click on View Chains and copy HTTPS e.g. for reference and update config file.
+   https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc
+   
+  
 
 
 ```typescript
