@@ -15,7 +15,7 @@ To run this project locally, follow these steps.
 #### Prerequisites
 
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. Install [Node.js](https://nodejs.org/en/download)
+2. Install [Node.js](https://nodejs.org/en/download) version "v18.16.0" for this dapp, use nvm for better management of node versions. 
 3. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) (optional)
 4. Install [Metamask](https://metamask.io/download/)
 5. Create [RPC API Enpoint](../../RPC.md) for Avalanche Test Network Fuji(C-chain)
@@ -57,6 +57,7 @@ cd sample-dapps/dapps/project_web3_battle_game
 <!-- 2. `npm install @openzeppelin/contracts dotenv @nomiclabs/hardhat-ethers` + Hardhat packages `npm install --save-dev "hardhat@^2.12.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"` -->
 
 2. `npm install`
+  
 
 3. Create a `.env` file and specify a PRIVATE_KEY variable.
 

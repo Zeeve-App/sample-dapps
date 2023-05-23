@@ -20,7 +20,7 @@ To run this project locally, follow these steps.
 #### Prerequisites
 
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. Install [Node.js](https://nodejs.org/en/download)
+2. Install [Node.js](https://nodejs.org/en/download) version "v14.21.3" or lower node versions specifically for this dapp, use nvm for better management of node versions. 
 3. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) (optional)
 4. Install [Metamask](https://metamask.io/download/)
 5. Create [RPC API Enpoint](../../RPC.md) for Polygon Test Network Mumbai

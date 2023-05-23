@@ -11,8 +11,7 @@
     "lint": "next lint",
     "migrate": "truffle migrate --reset && npm run generate",
     "prettier": "npx prettier --write .",
-    "generate": "truffle compile && typechain --target=truffle-v5 './build/**/*.json'",
-    "prepare": "husky install"
+    "generate": "truffle compile && typechain --target=truffle-v5 './build/**/*.json'"
   },
   "dependencies": {
     "@chakra-ui/icons": "2.0.2",
@@ -46,7 +45,6 @@
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "8.5.0",
-    "husky": "8.0.1",
     "lint-staged": "12.4.2",
     "prettier": "2.6.2",
     "prettier-plugin-solidity": "^1.0.0-beta.19",

@@ -70,7 +70,7 @@ Provide Key Name as per your choice.
 
 Select ZDFS as Service Type.
 
-Select Permissions as per your requirement. Actions are having direct relation with API methods present in the API Document (opens new window). 
+Select Permissions as per your requirement. Actions are having direct relation with API methods present in the [API Document](https://documenter.getpostman.com/view/19460118/Uz59PKx3). 
 
 Click on the Create Key button in order to generate it. 
 
@@ -85,7 +85,7 @@ You can utilize ZDFS services in ample ways as per your use case. There are 3 wa
 
 
 ##### HTTP APIs
-ZDFS offers you public APIs to integrate in your application. An access token is required to be sent with each request in the HTTP authorization header. Learn More(opens new window)
+ZDFS offers you public APIs to integrate in your application. An access token is required to be sent with each request in the HTTP authorization header. [Learn More](https://documenter.getpostman.com/view/19460118/Uz59PKx3#4fd9d6f7-d067-4b65-8b21-91b24762059a)
 
 There are two types of HTTP APIs:
 
@@ -93,9 +93,9 @@ There are two types of HTTP APIs:
 2. Data APIs.
 
 ##### Pinning Service API (PSA)
-Pinning Service API is meant for the purpose of performing operation on remote IPFS node of ZDFS. Pinning Service API spec is standardized specification for the developers and pinning service providers. Pinning Service API reduces the learning curve because of standardization. Learn More (opens new window).
+Pinning Service API is meant for the purpose of performing operation on remote IPFS node of ZDFS. Pinning Service API spec is standardized specification for the developers and pinning service providers. Pinning Service API reduces the learning curve because of standardization. [Learn More](https://documenter.getpostman.com/view/19460118/Uz59PKx3#fcd873f3-acdb-4776-a34c-25233832e7b6).
 
 ##### Data APIs
 
-ZDFS goes beyond in order to make the remote operation and integration of content with your application more effective. That's why your control on your content is not limited to just a few pinning methods but there are multiple other ways in which you fully access your content and make a seamless pipeline with your application. Learn More(opens new window)
+ZDFS goes beyond in order to make the remote operation and integration of content with your application more effective. That's why your control on your content is not limited to just a few pinning methods but there are multiple other ways in which you fully access your content and make a seamless pipeline with your application. [Learn More](https://documenter.getpostman.com/view/19460118/Uz59PKx3#c3bdc0b7-d67a-43a5-8f7c-fa4ce6054968)
 

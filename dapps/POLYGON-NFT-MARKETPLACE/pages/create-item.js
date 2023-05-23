@@ -4,13 +4,7 @@ import { useRouter } from 'next/router'
 import Web3Modal from 'web3modal'
 import axios from 'axios';
 import FormData from 'form-data';
-
-const fs = require('fs');
-const path = require("path");
-
-const authToken = fs.readFileSync(path.resolve(__dirname, "../.token")).toString().trim() || "01234567890123456789";
-
-
+import { authToken } from '../.token';
 import {
   nftaddress, nftmarketaddress
 } from '../config'
@@ -53,7 +47,7 @@ export default function CreateItem() {
            console.log("image uploaded", response.data.data.fileCID)
             return {
               success: true,
-              fileURL: "https://app.zeeve.io/zdfs-gateway/ZDFS/"+ response.data.data.fileCID
+              fileURL: "https://app.zeeve.io/zdfs-gateway/ipfs/"+ response.data.data.fileCID
            };
         })
         .catch(function (error) {

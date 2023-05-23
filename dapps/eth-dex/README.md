@@ -14,7 +14,7 @@ To run this project locally, follow these steps.
 #### Prerequisites
 
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. Install [Node.js](https://nodejs.org/en/download)
+2. Install [Node.js](https://nodejs.org/en/download) version "v18.16.0" for this dapp, use nvm for better management of node versions.
 3. Install [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable) (optional)
 4. Install [Truffle](https://trufflesuite.com/docs/truffle/how-to/install/) Truffle
 5. Install [Metamask](https://metamask.io/download/)
@@ -53,6 +53,7 @@ cd sample-dapps/dapps/eth-dex
 ```
 
 2. `npm install`
+
 
 3. Update truffle-config.js file
 
