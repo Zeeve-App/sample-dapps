@@ -26,11 +26,12 @@ Please follow screenshots
 ![2023-05-18-18-25-32](https://github.com/Zeeve-App/sample-dapps/assets/98962374/f3b10d6a-bcaf-4292-9aa2-a010c5fa6e76)
 ![2023-05-18-18-26-16](https://github.com/Zeeve-App/sample-dapps/assets/98962374/3fb1af10-dd9a-4bdc-954d-6e2ea27f2c93)
 ![2023-05-18-18-27-37](https://github.com/Zeeve-App/sample-dapps/assets/98962374/5b731201-b946-479d-9275-72492e5c916f)
-![2023-05-18-18-32-55](https://github.com/Zeeve-App/sample-dapps/assets/98962374/0b94209c-5c9e-4fdc-b4be-14eadaef1989)
+![Screenshot from 2023-05-22 18-12-51](https://github.com/Zeeve-App/sample-dapps/assets/98962374/1211b461-ff5c-4a28-a6d7-bfbacabc4ca9)
+
 
 6. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
 
-    1. Fuji url: 'https://app.zeeve.io/shared-api/avax/100eff9d918b3e643441492c6aa5b2794dbffa7326e42e5d/'
+    1. Fuji url: '[[https://app.zeeve.io/shared-api/avax/100eff9d918b3e643441492c6aa5b2794dbffa7326e42e5d/](https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc)](https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc)'
     2. Chain Id: 43113
 
 7. Fund your wallet from the [Avax Faucet](https://faucet.avax.network/)
@@ -82,7 +83,14 @@ cd sample-dapps/dapps/project_web3_battle_game
 
 6. To deploy to Fuji Avalanche test network, update the configurations located in __hardhat.config.ts__ to use a private key and, deploy to a private RPC like Zeeve.
 
-Go to Zeeve RPC endpoint 
+   Go to Zeeve RPC endpoint
+   
+   ![Screenshot from 2023-05-22 14-34-01](https://github.com/Zeeve-App/sample-dapps/assets/98962374/74788c92-64d2-4afe-a3de-8290d9856da2)
+   
+   Click on View Chains and copy HTTPS e.g. for reference and update config file.
+   https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc
+   
+  
 
 
 ```typescript
