@@ -143,7 +143,8 @@ Once the contracts have been deployed, you should be able to update the contract
 
     const provider = new ethers.providers.JsonRpcProvider('https://app.zeeve.io/shared-api/poly/a4f392ac9e1cef447778d0911edd1d6fff88d77f0d27db16/')
 
-![2023-05-18-13-54-31](https://github.com/Zeeve-App/sample-dapps/assets/98962374/579a6a67-3e4e-4922-80cb-67f4a53d2c7c)
+![2023-05-18-13-54-31](![image](https://github.com/Zeeve-App/sample-dapps/assets/43663107/ddbfb097-a1c4-4b80-b0c4-5efd1ac906c1)
+)
 
 
 ##### 4. Run Application
