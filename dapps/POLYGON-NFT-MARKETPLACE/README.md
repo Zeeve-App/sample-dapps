@@ -98,7 +98,7 @@ Here, we will add the following configurations for the Mumbai test network as li
 
 * Currency Symbol: Matic
 
-![image](https://github.com/Zeeve-App/sample-dapps/assets/98962374/a65dac04-3222-4af3-b14d-963b420ed6ec)
+![image](https://github.com/Zeeve-App/sample-dapps/assets/98962374/a65dac04-3222-4af3-b14d-963b420ed6ec.png)
 
 
 Save this, then you should be able to switch to and use the new network!
