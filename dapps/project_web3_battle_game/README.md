@@ -22,11 +22,15 @@ To run this project locally, follow these steps.
 
 Please follow screenshots
 
-![2023-05-18-18-19-57](https://github.com/Zeeve-App/sample-dapps/assets/98962374/7e03d64b-ea3b-4113-99d0-3217d6c417ea)
-![2023-05-18-18-25-32](https://github.com/Zeeve-App/sample-dapps/assets/98962374/f3b10d6a-bcaf-4292-9aa2-a010c5fa6e76)
-![2023-05-18-18-26-16](https://github.com/Zeeve-App/sample-dapps/assets/98962374/3fb1af10-dd9a-4bdc-954d-6e2ea27f2c93)
-![2023-05-18-18-27-37](https://github.com/Zeeve-App/sample-dapps/assets/98962374/5b731201-b946-479d-9275-72492e5c916f)
-![Screenshot from 2023-05-22 18-12-51](https://github.com/Zeeve-App/sample-dapps/assets/98962374/1211b461-ff5c-4a28-a6d7-bfbacabc4ca9)
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/b9f7e9b0-1c67-41af-824d-ddf4f21ec595)
+
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/89efbe48-4357-4f5b-9409-94adcb1f40ab)
+
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/a16c42d4-c3ee-4a59-bb00-cda1cc7ac6c9)
+
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/1b268365-75aa-4490-b3a5-661248ba4be0)
+
+![image](https://github.com/Zeeve-App/sample-dapps/assets/98962374/1211b461-ff5c-4a28-a6d7-bfbacabc4ca9)
 
 
 6. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
