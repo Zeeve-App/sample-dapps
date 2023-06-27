@@ -23,7 +23,7 @@ To run this project locally, follow these steps.
 
 Please follow screenshots
 
-![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/b9f7e9b0-1c67-41af-824d-ddf4f21ec595)
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/84e632b2-9594-4521-b072-863418e1ce3c)
 
 ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/89efbe48-4357-4f5b-9409-94adcb1f40ab)
 
