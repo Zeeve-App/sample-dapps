@@ -31,7 +31,6 @@ Please follow screenshots
 
 ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/1b268365-75aa-4490-b3a5-661248ba4be0)
 
-![image](https://github.com/Zeeve-App/sample-dapps/assets/98962374/1211b461-ff5c-4a28-a6d7-bfbacabc4ca9)
 ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/cc7eea92-8c4b-424a-bbf5-3e411876ae0b)
 
 
