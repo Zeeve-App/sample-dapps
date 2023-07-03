@@ -1,6 +1,7 @@
 # Avax Gods - Online Multiplayer Web3 NFT Card Game
 
-<img width="1433" alt="Gameplay" src="https://github.com/Zeeve-App/sample-dapps/assets/98962374/10819608-5ea7-4baa-897c-89f0ac53d92b">
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/c5697a2c-4d25-4710-9aa7-dee8336029b9)
+
 
 
 Description -> Web3 based battle game.
@@ -22,17 +23,23 @@ To run this project locally, follow these steps.
 
 Please follow screenshots
 
-![2023-05-18-18-19-57](https://github.com/Zeeve-App/sample-dapps/assets/98962374/7e03d64b-ea3b-4113-99d0-3217d6c417ea)
-![2023-05-18-18-25-32](https://github.com/Zeeve-App/sample-dapps/assets/98962374/f3b10d6a-bcaf-4292-9aa2-a010c5fa6e76)
-![2023-05-18-18-26-16](https://github.com/Zeeve-App/sample-dapps/assets/98962374/3fb1af10-dd9a-4bdc-954d-6e2ea27f2c93)
-![2023-05-18-18-27-37](https://github.com/Zeeve-App/sample-dapps/assets/98962374/5b731201-b946-479d-9275-72492e5c916f)
-![Screenshot from 2023-05-22 18-12-51](https://github.com/Zeeve-App/sample-dapps/assets/98962374/1211b461-ff5c-4a28-a6d7-bfbacabc4ca9)
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/84e632b2-9594-4521-b072-863418e1ce3c)
+
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/89efbe48-4357-4f5b-9409-94adcb1f40ab)
+
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/a16c42d4-c3ee-4a59-bb00-cda1cc7ac6c9)
+
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/1b268365-75aa-4490-b3a5-661248ba4be0)
+
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/cc7eea92-8c4b-424a-bbf5-3e411876ae0b)
 
 
 6. Add [Custom Network RPC](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
 
-    1. Fuji url: '[[https://app.zeeve.io/shared-api/avax/100eff9d918b3e643441492c6aa5b2794dbffa7326e42e5d/](https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc)](https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc)'
-    2. Chain Id: 43113
+    1. Fuji url: '[[https://app.zeeve.io/shared-api/avax/100eff9d918b3e643441492c6aa5b2794dbffa7326e42e5d/](https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc)]
+
+       Fuji's C-Chain: (https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc)'
+    3. Chain Id: 43113
 
 7. Fund your wallet from the [Avax Faucet](https://faucet.avax.network/)
 
@@ -63,14 +70,13 @@ cd sample-dapps/dapps/project_web3_battle_game
 3. Create a `.env` file and specify a PRIVATE_KEY variable.
 
 4. To get to the private key, do the following steps:
-
-  1. Click on the identicon in the top right.
-  2. Select the account you'd like to export.
-  3. On the account page, click on the menu (three dots) in the upper right corner, and then on the "Account Details" button.
-  4. Click “Export Private Key”.
-  5. To access your private key, you'll now need to enter your wallet password. Once you've done so, click “Confirm” to proceed.
-  6. Your private key will now be revealed. Click to copy it, and save it somewhere safe. (Note: we aren't showing it in the below screenshot for obvious reasons --   but yours will be there.)
-  7. Click “Done” to close the screen.
+   1. Click on the identicon in the top right.
+   2. Select the account you'd like to export.
+   3. On the account page, click on the menu (three dots) in the upper right corner, and then on the "Account Details" button.
+   4. Click “Export Private Key”.
+   5. To access your private key, you'll now need to enter your wallet password. Once you've done so, click “Confirm” to proceed.
+   6. Your private key will now be revealed. Click to copy it, and save it somewhere safe. (Note: we aren't showing it in the below screenshot for obvious reasons --   but yours will be there.)
+   7. Click “Done” to close the screen.
 
 
   [Get Private Key](https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key)
@@ -85,7 +91,8 @@ cd sample-dapps/dapps/project_web3_battle_game
 
    Go to Zeeve RPC endpoint
    
-   ![Screenshot from 2023-05-22 14-34-01](https://github.com/Zeeve-App/sample-dapps/assets/98962374/74788c92-64d2-4afe-a3de-8290d9856da2)
+   ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/28e4caef-8711-4502-b9dc-0bae483f7bef)
+
    
    Click on View Chains and copy HTTPS e.g. for reference and update config file.
    https://app.zeeve.io/shared-api/avax/3fa74ad9c39f971208a9fe279896372d3ccf05c05dad07c0/ext/bc/C/rpc

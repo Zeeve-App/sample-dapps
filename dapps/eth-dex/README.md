@@ -1,6 +1,7 @@
 # eth-dex
 
-![2023-05-19-12-18-54](https://github.com/Zeeve-App/sample-dapps/assets/98962374/2a8d070e-5be1-4413-8b92-603ed4801127)
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/dafab46e-3484-49ba-bf81-e6cd2bb9c7ad)
+
 
 Description -> Basic Ethereum decentralized exchange
 
@@ -22,15 +23,16 @@ To run this project locally, follow these steps.
   
   Please follow screenshots
   
-  ![2023-05-19-12-05-44](https://github.com/Zeeve-App/sample-dapps/assets/98962374/a4e423d9-1b9d-431c-99f2-768eb776fa0a)
+  ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/a11057fe-6ce1-4c01-a16e-aec5a2ea01b0)
   
-  ![2023-05-19-12-08-57](https://github.com/Zeeve-App/sample-dapps/assets/98962374/95587441-9033-41f3-9969-e0b5fa9ccacf)
+  ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/79c62f69-5d10-4008-9955-69559b04a992)
 
-  ![2023-05-19-12-11-35](https://github.com/Zeeve-App/sample-dapps/assets/98962374/0d8885d5-dd1e-454d-bb63-40ea82d7506f)
+  ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/10fb00e2-ff8d-43e9-887d-9a6a02393602)
 
-  ![2023-05-19-12-13-29](https://github.com/Zeeve-App/sample-dapps/assets/98962374/ed06c2aa-74f9-4016-9ab2-30c9fb9d8454)
+  ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/9376935e-e059-44dc-b003-9cee4dab3e30)
 
-  ![Screenshot from 2023-05-19 14-55-19](https://github.com/Zeeve-App/sample-dapps/assets/98962374/ce7077e4-af13-42d8-afc3-90641599886a)
+  ![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/787523a4-f99d-49fe-9a25-87d80caef317)
+
 
 
 

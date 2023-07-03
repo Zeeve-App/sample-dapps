@@ -98,7 +98,8 @@ Here, we will add the following configurations for the Mumbai test network as li
 
 * Currency Symbol: Matic
 
-![2023-05-18-13-53-09](https://github.com/Zeeve-App/sample-dapps/assets/98962374/a65dac04-3222-4af3-b14d-963b420ed6ec)
+![image](https://github.com/yuvanksoni/sample-dapps/assets/43663107/0e137a0e-3545-4801-a893-5646bc6b6ea0)
+
 
 
 Save this, then you should be able to switch to and use the new network!
@@ -143,7 +144,7 @@ Once the contracts have been deployed, you should be able to update the contract
 
     const provider = new ethers.providers.JsonRpcProvider('https://app.zeeve.io/shared-api/poly/a4f392ac9e1cef447778d0911edd1d6fff88d77f0d27db16/')
 
-![2023-05-18-13-54-31](https://github.com/Zeeve-App/sample-dapps/assets/98962374/579a6a67-3e4e-4922-80cb-67f4a53d2c7c)
+![image](https://github.com/Zeeve-App/sample-dapps/assets/43663107/ddbfb097-a1c4-4b80-b0c4-5efd1ac906c1)
 
 
 ##### 4. Run Application
