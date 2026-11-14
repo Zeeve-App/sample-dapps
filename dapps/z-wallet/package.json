@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@taquito/beacon-wallet": "^17.1.1",
+    "@taquito/beacon-wallet": "^17.5.2",
     "@taquito/taquito": "^17.1.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
